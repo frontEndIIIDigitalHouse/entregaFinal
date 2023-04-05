@@ -56,6 +56,8 @@ a:hover{
   color: rgb(136, 136, 136);
 } 
 
+
+
 footer {
   display: flex;
   justify-content: center;
@@ -87,11 +89,10 @@ form{
   width: 300px;
   height: 100px;
   margin: 0 auto;
-  align-items: center;
+  align-items: center; 
+  padding-bottom: 25.1%;
 }
-form div span{
-  margin-right: 30px;
-}
+
 form button{
   border-radius: 3px;
   background-color: #00aae4;
@@ -133,19 +134,24 @@ form button{
   margin: 0 auto;
 }
 
-table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
+.noFavs{
+  padding-bottom: 31.7%;
+}
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
+  padding-bottom: 25.1%;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  
 }
 
 tr:nth-child(even) {
@@ -168,6 +174,17 @@ tr:nth-child(even) {
 
 .fav {
   color: red;
+}
+.red-social{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color:#111;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .inputError{

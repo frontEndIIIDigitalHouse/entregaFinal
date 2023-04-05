@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className={theme.color}>
-      <h1>Para mas información</h1>
+      <h1 className="contact">Para mas información</h1>
       <p className="centered">
         Escribenos tu nombre y correo electronico
       </p>

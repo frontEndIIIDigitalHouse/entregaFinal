@@ -55,22 +55,22 @@ const Form = () => {
     <div>
       <form>
         <div>
-          <span>Nombre</span>
           <input
             className={errors.nombreError ? "inputError" : ""}
-            name="nombre"
-            type="text"
+            // name="nombre"
+            // type="text"
             onChange={handleInputChange}
+            placeholder="Nombre" name="nombre" required
           />
           {errors.nombreError && <label> ⚠ {errors.nombreError}</label>}
         </div>
         <div>
-          <span>Email</span>
           <input
             className={errors.emailError ? "inputError" : ""}
-            name="email"
-            type="email"
+            // name="email"
+            // type="email"
             onChange={handleInputChange}
+            placeholder="Email" name="email" required
           />
           {errors.emailError && <label> ⚠ {errors.emailError}</label>}
         </div>
