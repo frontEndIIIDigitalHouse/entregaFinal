@@ -32,10 +32,11 @@ nav{
   justify-content: flex-start;
   justify-content: center;
   padding: 1rem;
+  background-color: #51d1f6;
 }
 
 a{
-  color: #000;
+  color: black;
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
