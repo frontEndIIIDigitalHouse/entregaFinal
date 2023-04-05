@@ -7,6 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-bottom: 4.5em ;
+  min-height: 100vh;
+  
 }
 
 code {
@@ -14,11 +18,13 @@ code {
     monospace;
 }
 .favButton{
-  background-color: rgba(136, 136, 136, 0.116);
+  background-color: #00aae4;
   padding: 10px;
   border: none;
   width: 100%;
   cursor: pointer;
+  margin-bottom: 5%;
+  border-radius: 5%;
 }
 
 h1{
@@ -33,7 +39,12 @@ nav{
   justify-content: center;
   padding: 1rem;
   background-color: #51d1f6;
+  justify-content: flex-start;
 }
+nav .logo{
+  margin-right: 38%;
+}
+
 
 a{
   color: black;
@@ -55,6 +66,9 @@ footer {
   /* width: 90%; */
   height: 40px;
   /* margin-top: 2rem; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer > img{
@@ -73,6 +87,15 @@ form{
   width: 300px;
   height: 100px;
   margin: 0 auto;
+  align-items: center;
+}
+form div span{
+  margin-right: 30px;
+}
+form button{
+  border-radius: 3px;
+  background-color: #00aae4;
+  border-bottom: #00aae4;
 }
 
 .card{
@@ -82,13 +105,17 @@ form{
   align-items: center;
   width: 200px;
   padding: 0.5rem 0.5rem 0 0.5rem;
-  border: 0.5px solid rgb(136, 136, 136);
+  border: 3px solid #51d1f6;
+  border-radius: 10px;
+  box-shadow:5px 0 0 5px #d2d2d2 ;
+  
 }
 
 .card > a > img{
   width: 100%;
   height: 200px;
   object-fit: cover;
+  background-color: #fcf75e;
 }
 
 .card:hover{

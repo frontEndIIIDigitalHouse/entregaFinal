@@ -14,12 +14,16 @@ const Navbar = () => {
 
   return (
     <nav className={theme.color}>
+      <span className="logo"><img src="public\DH.ico" alt="DH-logo" /></span>
+      
       <Link to={home.path}>{home.name}</Link>
       <Link to={contacto.path}>{contacto.name}</Link>
       <Link to={favs.path}>{favs.name}</Link>
       {/* <Link to={dentista.path}>{dentista.name}</Link> */}
       {/* <button onClick={handleTheme}>Change theme</button> */}
+      
       <DarkModeButton onClick={handleTheme} />
+      
     </nav>
   );
 };

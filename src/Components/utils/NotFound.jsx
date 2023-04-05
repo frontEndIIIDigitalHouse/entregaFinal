@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useEstadosGlobalesContext } from "../../Components/utils/global.context";
-import { links } from "../../Components/utils/links";
+import { useEstadosGlobalesContext } from "./global.context";
+import { links } from "./links";
 import "./NotFoundStyle.css";
 
 const NotFound = () => {
