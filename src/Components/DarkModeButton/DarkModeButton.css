@@ -48,7 +48,7 @@
 
   .toggleDark{
     /* make the div fixed in the top right */
-    position: fixed;
+    position: absolute;
     top: 1em;
     right: 1em;
     z-index: 100;
